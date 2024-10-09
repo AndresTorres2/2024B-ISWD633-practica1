@@ -33,6 +33,7 @@ Es un servidor web muy eficiente que se usa para gestionar el tráfico de sitios
 
 Descargar la imagen  **nginx** en la versión **alpine**
 
+
 docker pull nginx:alpine
 
 ### Listar imágenes
@@ -58,6 +59,7 @@ docker inspect <nombre imagen>:<tag>
 
 Inspeccionar la imagen hello-world 
 
+
 docker inspect hello-world
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
@@ -78,6 +80,7 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
 docker image rm hello-world
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.

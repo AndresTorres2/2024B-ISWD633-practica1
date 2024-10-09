@@ -28,6 +28,7 @@ Crear un contenedor a partir de la imagen rabbitmq version management-alpine, pa
 
 Primero descargamos la imagen con la version:
 docker pull rabbitmq:management-alpine
+
 docker run -d --name srvrabbit -p 3001:3001 -p 3002:3002 rabbitmq:management-alpine
 
 
